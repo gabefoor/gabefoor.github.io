@@ -8,6 +8,7 @@ h1 {
   text-align: center;
 }
 
+/*This is the second implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417*/
 h2 {
    text-shadow: 0 1px 0 white;
    color: #292929;
@@ -16,7 +17,7 @@ h2 {
 
 
 
-/*This is the second implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417*/
+/*This is the third implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417*/
 ul a {
    -webkit-transition: padding .4s; 
    -moz-transition: padding .4s;
