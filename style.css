@@ -1,0 +1,38 @@
+/*This is the first implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417*/
+
+h1 {
+   -webkit-text-stroke: 2px black;
+   color: white;
+}
+
+h2 {
+   text-shadow: 0 1px 0 white;
+   color: #292929;
+}
+
+
+/*.box {
+   -o-text-overflow: ellipsis;
+   text-overflow:ellipsis;
+ 
+   overflow:hidden;
+   white-space:nowrap;
+ 
+   border: 1px solid black;
+   width: 400px;
+   padding: 20px;
+ 
+   cursor: pointer;
+}*/
+
+/*This is the second implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417*/
+ul a {
+   -webkit-transition: padding .4s; 
+   -moz-transition: padding .4s;
+   -o-transition: padding .4s;
+   transition: padding .4s;
+}
+ 
+a:hover { 
+   padding-left: 6px;  
+}
