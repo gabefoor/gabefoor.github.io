@@ -1,8 +1,11 @@
-/*This is the first implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417*/
+/*This is the first implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417
+
+This is also an example of a CSS element selector*/
 
 h1 {
    -webkit-text-stroke: 2px black;
    color: white;
+  text-align: center;
 }
 
 h2 {
@@ -11,19 +14,7 @@ h2 {
 }
 
 
-/*.box {
-   -o-text-overflow: ellipsis;
-   text-overflow:ellipsis;
- 
-   overflow:hidden;
-   white-space:nowrap;
- 
-   border: 1px solid black;
-   width: 400px;
-   padding: 20px;
- 
-   cursor: pointer;
-}*/
+
 
 /*This is the second implementation from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417*/
 ul a {
@@ -35,4 +26,16 @@ ul a {
  
 a:hover { 
    padding-left: 6px;  
+}
+
+/*This is an example of the CSS id selector*/
+#mainPara {
+  text-align: center;
+  color: orange;
+} 
+
+/*This is an example of the CSS class selector*/
+.pad {
+  padding:10px;
+  color: red;
 }
