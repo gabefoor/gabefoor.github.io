@@ -40,3 +40,22 @@ a:hover {
   padding:10px;
   color: red;
 }
+/*Example of display:none rule*/
+p.hidden {
+  display: none;
+}
+
+/*Example of display:block rule*/
+ img {
+  display: block;
+}
+
+/*Example of display:inline-block rule*/
+p.inlineblock{
+  display: inline-block;
+}
+
+/*Example of display:inline rule*/
+p.inline{
+  display: inline;
+}
