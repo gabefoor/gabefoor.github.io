@@ -105,6 +105,7 @@ function displayAbout() {
 // navigate to last screen
 function displayLast() {
         window.location.href = "clubDistanceList.html";
+}
 
 
 // navigate to "Penalty Info" screen
