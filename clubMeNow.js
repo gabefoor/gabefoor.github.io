@@ -102,6 +102,11 @@ function displayAbout() {
 	window.location.href = "clubAbout.html";
 }
 
+// navigate to last screen
+function displayLast() {
+        window.location.href = "clubDistanceList.html";
+
+
 // navigate to "Penalty Info" screen
 function displayPenaltyInfo() {
 	window.location.href = "clubPenaltyInfo.html";
